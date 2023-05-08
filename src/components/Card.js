@@ -8,7 +8,12 @@ export default function Card() {
           className="card mt-3"
           style={{ width: "18rem", maxHeight: "360px" }}
         >
-          <img className="card-img-top" src="https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/60f2ea67b471327a1d82959b_chicken%20roll_1500%20x%201200.jpg" alt="Card image cap" />
+          <img
+            className="card-img-top"
+            src="https://uploads-ssl.webflow.com/5c481361c604e53624138c2f/60f2ea67b471327a1d82959b_chicken%20roll_1500%20x%201200.jpg"
+            alt="Card image cap"
+            style={{ height: "120", objectFit: "fill" }}
+          />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">Some Text.</p>
