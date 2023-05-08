@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Carousal from "../components/Carousal";
+import Search from "../components/Search";
 
 export default function Home() {
   return (
@@ -12,14 +13,22 @@ export default function Home() {
         <Navbar />{" "}
       </div>
       <div>
-        <Carousal />
+        {/* <Carousal /> */}
+        <Search />  
+
+
+      <div className="m-3">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
 
       <div>
-        <Card />
+        {" "}
+        <Footer />{" "}
       </div>
-      
-      <div> <Footer /> </div>
     </div>
-  );
-}
+    </div>
+  )
+};
