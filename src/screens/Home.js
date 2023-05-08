@@ -14,21 +14,20 @@ export default function Home() {
       </div>
       <div>
         {/* <Carousal /> */}
-        <Search />  
+        <Search />
 
+        <div className="m-3">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
 
-      <div className="m-3">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-
-      <div>
-        {" "}
-        <Footer />{" "}
+        <div>
+          {" "}
+          <Footer />{" "}
+        </div>
       </div>
     </div>
-    </div>
-  )
-};
+  );
+}
